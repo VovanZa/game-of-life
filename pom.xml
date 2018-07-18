@@ -499,12 +499,12 @@
         <repository>
             <id>releases</id>
             <name>releases</name>
-            <url>http://10.19.11.160/nexus/content/repositories/releases/</url>
+            <url>http://10.19.10.65/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>snapshots</name>
-            <url>http://10.19.11.160/nexus/content/repositories/snapshots/</url>
+            <url>http://10.19.10.65/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
            
     </distributionManagement>
