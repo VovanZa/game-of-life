@@ -37,8 +37,7 @@
                         <hostname>10.19.12.73</hostname>
                         <username>jbossadmin</username>
                         <password>dude-2018</password>
-                        <jboss-home>remote-jboss-home</jboss-home>
-                        <name>${project.build.finalName}.${project.packaging}</name>
+                        <filename>${filename}</filename>
                     </configuration>
                     <executions>
                         <!-- Undeploy the application on clean -->
