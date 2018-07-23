@@ -31,13 +31,13 @@
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
-                <version>1.0.1.Alpha7</version>
+                <version>1.1.0.Final</version>
 
                     <configuration>
                         <hostname>10.19.12.73</hostname>
                         <username>jbossadmin</username>
                         <password>dude-2018</password>
-                        <filename>${filename}</filename>
+                        <name>${project.build.finalName}.${project.packaging}</name>
                     </configuration>
                     <executions>
                         <!-- Undeploy the application on clean -->
