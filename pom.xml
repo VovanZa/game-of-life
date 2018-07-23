@@ -35,8 +35,6 @@
 
                     <configuration>
                         <hostname>10.19.12.73</hostname>
-                        <protocol>https-remoting</protocol>
-                        <port>9990</port>
                         <username>jbossadmin</username>
                         <password>dude-2018</password>
                         <jboss-home>remote-jboss-home</jboss-home>
